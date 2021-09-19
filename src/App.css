@@ -94,6 +94,11 @@
   width: 36px; */
 }
 
+.rounded-img.text {
+  background-color: rgb(149, 208, 228);
+  padding: 24px;
+}
+
 .font12 {
   font-size: 12px;
 }
