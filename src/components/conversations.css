@@ -1,0 +1,8 @@
+.conversation-menu {
+    
+}
+
+.conversation-menu .conversation-header {
+    display: flex;
+    justify-content: space-between;
+}

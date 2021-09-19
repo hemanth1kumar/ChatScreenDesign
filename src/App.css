@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+.container {
+  background-color: white;
+  border-radius: 8px !important;
+  padding: 16px !important;
+}
+.home-page {
+  background-color: #eaf2f3;
+  height: 90%;
+  width: 100%;
+  overflow: hidden;overflow-x: hidden;
+  padding: 48px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.left-menu .top-section {
   display: flex;
   flex-direction: column;
+}
+
+.left-menu .top-section .app-logo {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.left-menu .self-details {
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-light {
+  background-color: #F1f9ec;
+}
+
+.light-card {
+  background-color: #eaf2f3;
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.archive-btn {
+  border: 1px solid blue;
+  color: blue;
+  background-color: white;
+}
+.person {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+}
+.person.selected {
+  background-color: lightblue;
+}
+
+.right-menu .body .time {
+  padding: 8px;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.right-menu .body .glyphicon {
+  font-size: 14px;
+}
+
+.right-menu .body .bg-light-blue {
+  color: blue;
+  background-color: lightblue;
+}
+
+.right-menu .body .bg-light-green {
+  color: green;
+  background-color: lightgreen;
+}
+
+.right-menu .body .bg-light-violet {
+  color: darkblue;
+  background-color: rgb(223, 223, 255);
+}
+
+.right-menu .body .bg-light-red {
+  color: rgb(216, 64, 64);
+  background-color: #ffccbb;
+}
+
+.rounded-img {
+  border-radius: 50%;
+  /* height: 36px;
+  width: 36px; */
+}
+
+.font12 {
+  font-size: 12px;
+}
+
+.app-logo .logo-container {
+  background-color: lightblue;
+  border-radius: 50%;
+  text-align: center;
+  padding: 6px;
+  height: 36px;
+  width: 36px;
+  margin-right: 8px;
+}
+.glyphicon-send .logo {
+  font-size: 16px;
+  margin-right: 16px;
+  color: "blue";
+  margin-top: 2px;
+  margin-left: 2px;
 }
